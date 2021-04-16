@@ -1,0 +1,54 @@
+body {
+  margin: 0px;
+  background-color: #00ff5c;
+}
+.nav {
+  width: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /*height:75px;*/
+  padding: 30px;
+  background-color: blue;
+}
+
+.nav_button {
+  width: 50px;
+  transition: transform .5s cubic-bezier(0.68, 0.67, 0.25, 2.04), background-color .1s cubic-bezier(0.4, 0, 1, 1);
+  transform: scale(1);
+  z-index: 1;
+}
+.nav_button:hover {
+  transition: transform .5s cubic-bezier(0.68, 0.67, 0.25, 2.04), background-color .1s cubic-bezier(0.4, 0, 1, 1);
+  transform: scale(1.5);
+  z-index: 1;
+}
+.navigation {
+  bottom:0;
+  position:fixed;
+  z-index:150;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+.nav_button_img {
+  width: inherit;
+}
+.main {
+
+  padding: 50px;
+}
+.header {
+  position:fixed;
+  z-index:150;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
