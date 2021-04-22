@@ -15,7 +15,7 @@ document.querySelector(".navigation").innerHTML = `
 `
 document.querySelector(".header").innerHTML = `
 
-<div style="background-color: orange;">MUSHEMIIA pog</div>
+<div class="header_text">MUSHEMIIA pog</div>
 
 
 `
